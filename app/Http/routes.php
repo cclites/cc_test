@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::post('post', "dataController@post");
+
+Route::get('fetch', "dataController@fetch");
